@@ -1,0 +1,93 @@
+[insert]---> 10000 rows, use 347ms
+[query]---> total 10000 rows, type raw use 15ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 9ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 51ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 10000 rows, type raw use 3ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 10ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 51ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 10000 rows, type raw use 3ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 10ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 52ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 10000 rows, type raw use 2ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 11ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 52ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 10000 rows, type raw use 3ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 9ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 50ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 10000 rows, type raw use 3ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 10ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 55ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 10000 rows, type raw use 3ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 9ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 53ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 10000 rows, type raw use 3ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 9ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 51ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 10000 rows, type raw use 3ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 9ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 51ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 10000 rows, type raw use 3ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 10000 rows, type json use 10ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 10000 rows, type json_to_string use 51ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[insert]---> 100000 rows, use 3819ms
+[query]---> total 110000 rows, type raw use 51ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 96ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 218ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 110000 rows, type raw use 26ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 96ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 202ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 110000 rows, type raw use 26ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 98ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 200ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 110000 rows, type raw use 25ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 98ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 202ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 110000 rows, type raw use 25ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 95ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 216ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 110000 rows, type raw use 26ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 97ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 202ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 110000 rows, type raw use 25ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 95ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 208ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 110000 rows, type raw use 26ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 97ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 201ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 110000 rows, type raw use 26ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 95ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 202ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 110000 rows, type raw use 25ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 110000 rows, type json use 95ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 110000 rows, type json_to_string use 209ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[insert]---> 1000000 rows, use 56059ms
+[query]---> total 1110000 rows, type raw use 200ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 422ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 1986ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 1110000 rows, type raw use 129ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 387ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 2016ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 1110000 rows, type raw use 129ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 387ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 2095ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 1110000 rows, type raw use 136ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 425ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 2104ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 1110000 rows, type raw use 127ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 386ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 2132ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 1110000 rows, type raw use 132ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 402ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 2277ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 1110000 rows, type raw use 137ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 414ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 2166ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 1110000 rows, type raw use 129ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 417ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 2175ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 1110000 rows, type raw use 132ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 416ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 2190ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
+[query]---> total 1110000 rows, type raw use 129ms, query by SELECT * FROM test_json WHERE data_meta = 'c836c4c3';
+[query]---> total 1110000 rows, type json use 437ms, query by SELECT * FROM test_json WHERE data #>>'{candidates,users,0,oxygenId}' = 'c836c4c3'
+[query]---> total 1110000 rows, type json_to_string use 2205ms, query by SELECT * FROM test_json WHERE data::text SIMILAR TO '%(c836c4c3)%'
